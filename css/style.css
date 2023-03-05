@@ -650,16 +650,17 @@ nav .header-top .gray-text {
 
 
 .container-row{
-    padding: 20px 0 20px;
-    height: 200px;
+    padding: 20px 0px 0px;
+    margin-bottom: 20px;
 }
 
 .container-row2 {
-    padding: 20px 0 20px;
+    padding: 20px 0px 0px;
+    margin-bottom: 20px;
 }
 
 .container-row2 img{
-    margin: 30px 0px 60px 60px;
+    margin: 40px 0px 60px;
     width: 300px;
     height: 250px;
     border: 2px solid grey;
