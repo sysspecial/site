@@ -2434,3 +2434,8 @@ button.close {
 .main-slide-banner .owl-nav .owl-next {
     right: 40px;
 }
+
+.navbar-brand img{
+    width: 120px;
+    height: 50px;
+}
