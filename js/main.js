@@ -139,48 +139,4 @@
     loop: true,
     responsive: { 0: { items: 2 }, 768: { items: 4 }, 900: { items: 6 } },
   });
-
-  $(".contactForm").on("submit", function (e) {
-    e.preventDefault();
-
-    var _self = $(this);
-
-    var __selector = _self.closest("input,textarea");
-
-    _self.closest("div").find("input,textarea").removeAttr("style");
-
-    _self.find(".alert").remove();
-
-    _self
-      .closest("div")
-      .find('button[type="submit"]')
-      .attr("disabled", "disabled");
-
-    var data = $(this).serialize();
-
-    $.ajax({
-      url: "https://usebasin.com/f/63e90d7c0622",
-
-      type: "post",
-
-      dataType: "json",
-
-      data: data,
-
-      complete: function () {
-        _self
-          .closest("div")
-          .find('button[type="submit"]')
-          .removeAttr("disabled");
-
-        _self
-          .find(".btn-send")
-          .last()
-          .after(
-            '<div class="alert alert-success"><p style="color:green;padding:0;font-size:13px;font-weight:bold;position:relative;">Thanks, your message has been sent!</p></div>'
-          );
-        _self.closest("div").find("input,textarea").val("");
-      },
-    });
-  });
 })(jQuery);
