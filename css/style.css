@@ -209,30 +209,30 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Intro Section
+# index Section
 --------------------------------------------------------------*/
 
-#intro {
+#index {
   width: 100%;
   height: 75vh;
   position: relative;
-  background: #f5f8fd url("../img/intro-bg.jpg") center top no-repeat;
+  background: #f5f8fd url("../img/index-bg.jpg") center top no-repeat;
   background-size: cover;
 }
 
-#intro .intro-info h2 {
+#index .index-info h2 {
   color: #413e66;
   margin-bottom: 40px;
   font-size: 48px;
   font-weight: 700;
 }
 
-#intro .intro-info h2 span {
+#index .index-info h2 span {
   color: #1bb1dc;
 }
 
-#intro .intro-info .btn-get-started,
-#intro .intro-info .btn-services {
+#index .index-info .btn-get-started,
+#index .index-info .btn-services {
   font-family: "Montserrat", sans-serif;
   font-size: 13px;
   font-weight: 600;
@@ -247,8 +247,8 @@ h6 {
   color: #fff;
 }
 
-#intro .intro-info .btn-get-started:hover,
-#intro .intro-info .btn-services:hover {
+#index .index-info .btn-get-started:hover,
+#index .index-info .btn-services:hover {
   background: #0a98c0;
 }
 
@@ -1489,7 +1489,7 @@ h6 {
 }
 
 @media (min-width: 992px) {
-  #intro .intro-info {
+  #index .index-info {
     padding-top: 80px;
   }
 
@@ -1541,25 +1541,25 @@ h6 {
 }
 
 @media (max-width: 767px) {
-  #intro {
+  #index {
     height: auto;
     padding: 80px 0 60px 0;
   }
 
-  #intro .container {
+  #index .container {
     height: auto !important;
   }
 
-  #intro .intro-img {
+  #index .index-img {
     width: 80%;
   }
 
-  #intro .intro-info {
+  #index .index-info {
     text-align: center;
     padding-top: 40px;
   }
 
-  #intro .intro-info h2 {
+  #index .index-info h2 {
     font-size: 34px;
     margin-bottom: 30px;
   }
