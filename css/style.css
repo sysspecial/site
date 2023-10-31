@@ -1462,6 +1462,11 @@ h6 {
   padding: 5px 0px 2px 0px;
 }
 
+#call-to-action {
+  background-color: grey;
+  height: 150px;
+}
+
 /*--------------------------------------------------------------
 # Responsive Media Queries
 --------------------------------------------------------------*/
