@@ -1246,9 +1246,9 @@ h6 {
 .bs {
   font-size: 50px;
   margin-left: 20px;
-  color: rgb(26, 169, 26) !important;
-  background-color: white;
-  padding: 0 10px 0px 10px;
+  color: brown !important;
+  background-color: black;
+  padding: 0px 10px 0px 10px;
 }
 
 .pre3,
