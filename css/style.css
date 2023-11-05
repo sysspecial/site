@@ -253,6 +253,11 @@ h6 {
   background: #0a98c0;
 }
 
+.btn-primary {
+  width: 150px;
+  height: 40px;
+}
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -491,7 +496,19 @@ h6 {
 --------------------------------*/
 
 .section-bg {
-  background: #f5f8fd;
+  background-color: black !important;
+}
+
+.section-bg h3 {
+  color: grey;
+}
+
+.section-bg2 {
+  background-color: orange;
+}
+
+.section-bg2 h3 {
+  color: white;
 }
 
 /* About Us Section
@@ -689,23 +706,23 @@ h6 {
 /* Call To Action Section
 --------------------------------*/
 
-#call-to-action {
+#sm {
   background: #2d2b46;
   background-size: cover;
   padding: 40px 0;
 }
 
-#call-to-action .cta-title {
+#sm .cta-title {
   color: #fff;
   font-size: 28px;
   font-weight: 700;
 }
 
-#call-to-action .cta-text {
+#sm .cta-text {
   color: #fff;
 }
 
-#call-to-action .cta-btn {
+#sm .cta-btn {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 16px;
@@ -719,7 +736,7 @@ h6 {
   color: #fff;
 }
 
-#call-to-action .cta-btn:hover {
+#sm .cta-btn:hover {
   background: #1bb1dc;
   border: 3px solid #1bb1dc;
 }
@@ -1219,46 +1236,61 @@ h6 {
 }
 
 .pre1 {
-  font-size: 40px;
+  font-size: 30px;
   color: blue !important;
 }
 
 .pre2 {
-  font-size: 100px;
+  font-size: 60px;
   color: green !important;
 }
 
 .agile,
 .cs {
-  font-size: 40px;
+  font-size: 30px;
   color: red !important;
 }
 
+.cn {
+  font-size: 30px;
+  color: green !important;
+}
+
 .bs {
-  font-size: 50px;
+  font-size: 30px;
   margin-left: 20px;
   color: orange !important;
   padding: 10px 15px 10px 15px;
 }
 
-.pre3 {
+.pre1,
+.pre2,
+.pre3,
+.pre4 {
   font-size: 50px;
   padding: 10px 15px 10px 15px;
+}
+
+.pre1 {
+  background-color: blue;
+  color: yellow !important;
+}
+
+.pre3 {
   background-color: brown;
   color: orange !important;
 }
 
-.pre2,
-.agile {
-  display: inline-block;
+.pre4 {
+  background-color: green;
+  color: white !important;
 }
 
-hr {
-  border: 1px solid grey;
-  margin-top: 10px;
-  height: 150px;
-  color: orange;
-  background-color: orange;
+.pre2,
+.pre3,
+.pre4,
+.agile {
+  display: inline-block;
 }
 
 /*--------------------------------------------------------------
@@ -1501,7 +1533,7 @@ hr {
   padding: 5px 0px 2px 0px;
 }
 
-#call-to-action {
+#sm {
   background-color: grey;
   height: 150px;
 }
@@ -1511,7 +1543,7 @@ hr {
 --------------------------------------------------------------*/
 
 @media (min-width: 991px) {
-  #call-to-action .cta-btn-container {
+  #sm .cta-btn-container {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
