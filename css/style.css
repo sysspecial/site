@@ -504,7 +504,7 @@ h6 {
 }
 
 .section-bg2 {
-  background-color: orange;
+  background-color: #1bb1dc;
 }
 
 .section-bg2 h3 {
@@ -1235,62 +1235,25 @@ h6 {
   content: "\f2c7" !important;
 }
 
-.pre1 {
-  font-size: 30px;
-  color: blue !important;
-}
-
-.pre2 {
-  font-size: 60px;
-  color: green !important;
-}
-
-.agile,
-.cs {
-  font-size: 30px;
-  color: red !important;
-}
-
-.cn {
-  font-size: 30px;
-  color: green !important;
-}
-
-.bs {
-  font-size: 30px;
-  margin-left: 20px;
-  color: orange !important;
-  padding: 10px 15px 10px 15px;
-}
-
 .pre1,
 .pre2,
 .pre3,
 .pre4 {
-  font-size: 50px;
+  font-size: 30px;
   padding: 10px 15px 10px 15px;
-}
-
-.pre1 {
-  background-color: blue;
-  color: yellow !important;
-}
-
-.pre3 {
-  background-color: brown;
-  color: orange !important;
-}
-
-.pre4 {
-  background-color: green;
+  background-color: orange;
   color: white !important;
+  display: inline-block;
+  margin: 10px 0px 10px 0px;
 }
 
-.pre2,
-.pre3,
-.pre4,
-.agile {
+.pre5 {
   display: inline-block;
+  color: white !important;
+  margin-top: 20px;
+  font-size: 30px;
+  padding: 10px 15px 10px 15px;
+  background-color: black;
 }
 
 /*--------------------------------------------------------------
@@ -1509,7 +1472,7 @@ h6 {
 #footer .copyright {
   text-align: center;
   padding-top: 30px;
-  color: #535074;
+  color: white;
   font-size: 15px;
 }
 
@@ -1517,7 +1480,7 @@ h6 {
   text-align: center;
   font-size: 14px;
   padding-top: 4px;
-  color: #8582a8;
+  color: white;
 }
 
 #footer .credits a {
@@ -1528,6 +1491,9 @@ h6 {
   color: #0a98c0;
 }
 
+#footer .bg {
+  background-color: gold;
+}
 .alert-size {
   height: 35px;
   padding: 5px 0px 2px 0px;
