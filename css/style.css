@@ -259,11 +259,6 @@ h6 {
 
 /* Desktop Navigation */
 
-.main-nav {
-  /* Drop Down */
-  /* Deep Drop Down */
-}
-
 .main-nav,
 .main-nav * {
   margin: 0;
@@ -1242,14 +1237,14 @@ h6 {
 .bs {
   font-size: 50px;
   margin-left: 20px;
-  color: red !important;
-  /* background-color: brown; */
+  color: orange !important;
   padding: 10px 15px 10px 15px;
 }
 
 .pre3 {
   font-size: 50px;
   padding: 10px 15px 10px 15px;
+  background-color: brown;
   color: orange !important;
 }
 
