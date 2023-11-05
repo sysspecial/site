@@ -1253,15 +1253,17 @@ h6 {
   color: orange !important;
 }
 
-.pre3,
-.bs {
+.pre2,
+.agile {
   display: inline-block;
 }
 
 hr {
   border: 1px solid grey;
   margin-top: 10px;
-  height: 14px;
+  height: 150px;
+  color: orange;
+  background-color: orange;
 }
 
 /*--------------------------------------------------------------
