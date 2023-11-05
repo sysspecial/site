@@ -1232,10 +1232,6 @@ h6 {
   font-size: 100px;
   color: green !important;
 }
-.pre3 {
-  font-size: 50px;
-  color: orange !important;
-}
 
 .agile,
 .cs {
@@ -1246,14 +1242,26 @@ h6 {
 .bs {
   font-size: 50px;
   margin-left: 20px;
-  color: brown !important;
-  background-color: black;
-  padding: 0px 10px 0px 10px;
+  color: red !important;
+  /* background-color: brown; */
+  padding: 10px 15px 10px 15px;
+}
+
+.pre3 {
+  font-size: 50px;
+  padding: 10px 15px 10px 15px;
+  color: orange !important;
 }
 
 .pre3,
 .bs {
   display: inline-block;
+}
+
+hr {
+  border: 1px solid grey;
+  margin-top: 10px;
+  height: 14px;
 }
 
 /*--------------------------------------------------------------
