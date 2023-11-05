@@ -216,7 +216,8 @@ h6 {
   width: 100%;
   height: 75vh;
   position: relative;
-  background: #f5f8fd url("../img/index-bg.jpg") center top no-repeat;
+  background: #f5f8fd;
+  /* url("../img/intro-bg.jpg") center top no-repeat; */
   background-size: cover;
 }
 
@@ -1220,6 +1221,39 @@ h6 {
 
 #faq #faq-list a.collapsed i::before {
   content: "\f2c7" !important;
+}
+
+.pre1 {
+  font-size: 40px;
+  color: blue !important;
+}
+
+.pre2 {
+  font-size: 100px;
+  color: green !important;
+}
+.pre3 {
+  font-size: 50px;
+  color: orange !important;
+}
+
+.agile,
+.cs {
+  font-size: 40px;
+  color: red !important;
+}
+
+.bs {
+  font-size: 50px;
+  margin-left: 20px;
+  color: rgb(26, 169, 26) !important;
+  background-color: white;
+  padding: 0 10px 0px 10px;
+}
+
+.pre3,
+.bs {
+  display: inline-block;
 }
 
 /*--------------------------------------------------------------
