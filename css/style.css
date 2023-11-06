@@ -599,7 +599,7 @@ h6 {
 }
 
 #services .box h4 {
-  margin-bottom: -15px !important;
+  margin-bottom: 20px !important;
 }
 
 #services .box {
@@ -636,7 +636,7 @@ h6 {
 
 #services .title {
   font-weight: 700;
-  margin-bottom: 15px;
+  margin-bottom: 50px;
   font-size: 18px;
 }
 
@@ -652,8 +652,7 @@ h6 {
   font-size: 14px;
   line-height: 28px;
   margin-bottom: 20px;
-  margin-left: 70px;
-  text-align: left;
+  justify-content: center;
 }
 
 /* Why Us Section
