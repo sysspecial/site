@@ -135,10 +135,11 @@ jQuery(document).ready(function ($) {
           .find(".btn-send")
           .last()
           .after(
-            '<div class="alert alert-success alert-size mt-2"><p style="color:green;padding:0;font-size:13px;font-weight:bold;position:relative;">Thanks, your message has been sent!</p></div>'
+            '<div class="alert alert-info alert-size mt-2"><p style="color:blue;padding:0;font-size:13px;font-weight:bold;position:relative;">Thanks, your message has been sent!</p></div>'
           );
         _self.closest("div").find("input,textarea").val("");
       },
     });
   });
 });
+
