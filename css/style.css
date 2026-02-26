@@ -1270,6 +1270,10 @@ h6 {
   background: #fff;
 }
 
+#footer .form-control{
+  height: 30px;
+}
+
 #footer .footer-top {
   padding: 60px 0 30px 0;
   background: #f5f8fd;
