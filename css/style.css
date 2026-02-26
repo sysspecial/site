@@ -1398,7 +1398,7 @@ h6 {
 
 #footer .footer-top .form #sendmessage {
   color: #fff;
-  background: blue !important;
+  background-color: blue !important;
   display: none;
   text-align: center;
   padding: 15px;
